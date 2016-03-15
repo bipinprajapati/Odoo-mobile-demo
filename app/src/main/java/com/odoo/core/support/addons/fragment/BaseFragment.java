@@ -38,7 +38,7 @@ import android.widget.ListView;
 
 import com.odoo.App;
 import com.odoo.OdooActivity;
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.orm.OModel;
 import com.odoo.core.service.receivers.ISyncFinishReceiver;
 import com.odoo.core.support.OUser;

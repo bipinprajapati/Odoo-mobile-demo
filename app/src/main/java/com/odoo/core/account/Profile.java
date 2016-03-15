@@ -26,7 +26,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.ImageView;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.orm.ODataRow;
 import com.odoo.core.support.OUser;
 import com.odoo.core.utils.BitmapUtils;

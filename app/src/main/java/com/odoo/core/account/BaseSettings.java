@@ -24,7 +24,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceFragment;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.utils.OPreferenceManager;
 import com.odoo.core.utils.OResource;
 

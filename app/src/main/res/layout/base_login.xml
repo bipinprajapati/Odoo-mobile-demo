@@ -16,11 +16,11 @@
         android:paddingRight="@dimen/activity_horizontal_margin">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
             android:layout_marginBottom="40dp"
             android:layout_marginTop="40dp"
-            android:src="@drawable/odoo_small"
+            android:src="@drawable/serpentcs"
             android:tint="#ffffff" />
 
         <LinearLayout
@@ -43,7 +43,7 @@
                     android:gravity="center_horizontal"
                     android:orientation="horizontal"
                     android:padding="10dp"
-                    android:visibility="gone">
+                    android:visibility="visible">
 
                     <ImageView
                         android:layout_width="wrap_content"
@@ -64,6 +64,7 @@
                         android:gravity="center_vertical"
                         android:hint="@string/label_your_self_hosted_url"
                         android:singleLine="true"
+                        android:text="10.42.0.128:9999"
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColorHint="@color/body_text_3" />
 
@@ -84,11 +85,6 @@
                         android:tint="@color/theme_primary"
                         android:visibility="gone" />
                 </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/theme_primary_dark" />
 
                 <!-- Username Input -->
                 <LinearLayout
@@ -119,11 +115,6 @@
                         android:textAppearance="?android:attr/textAppearanceMedium"
                         android:textColorHint="@color/body_text_3" />
                 </LinearLayout>
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:background="@color/theme_primary_dark" />
 
                 <!-- User Password Input -->
                 <LinearLayout
@@ -202,8 +193,8 @@
                 android:text="@string/disclaimer_content"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColorLink="#ffffff"
+                android:visibility="gone"
                 android:textColor="#ffffff" />
-
             <Button
                 android:id="@+id/btnLogin"
                 android:layout_width="match_parent"
@@ -214,7 +205,7 @@
                 android:layout_marginTop="15dp"
                 android:background="@drawable/login_signup_button"
                 android:fontFamily="@string/font_light"
-                android:text="@string/label_accept_login"
+                android:text="Sign In"
                 android:textColor="#fff" />
 
             <TextView
@@ -225,6 +216,7 @@
                 android:fontFamily="@string/font_light"
                 android:gravity="center"
                 android:padding="5dp"
+                android:visibility="gone"
                 android:text="@string/label_forgot_password"
                 android:textAppearance="?android:attr/textAppearanceSmall"
                 android:textColor="#ebebeb" />
@@ -240,6 +232,7 @@
                 android:padding="5dp"
                 android:text="@string/label_add_self_hosted_url"
                 android:textAppearance="?android:attr/textAppearanceMedium"
+                android:visibility="gone"
                 android:textColor="#ffffff" />
 
             <TextView
@@ -252,6 +245,7 @@
                 android:text="@string/label_create_account"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#ffffff"
+                android:visibility="gone"
                 android:textStyle="bold" />
 
             <TextView

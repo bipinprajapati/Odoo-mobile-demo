@@ -27,7 +27,6 @@ import android.graphics.Bitmap;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.view.View;
@@ -38,12 +37,12 @@ import android.widget.TextView;
 
 import com.odoo.App;
 import com.odoo.OdooActivity;
-import com.odoo.R;
 import com.odoo.core.auth.OdooAccountManager;
 import com.odoo.core.service.OSyncAdapter;
 import com.odoo.core.utils.BitmapUtils;
 import com.odoo.core.utils.OResource;
 import com.odoo.core.utils.notification.ONotificationBuilder;
+import com.serpentcs.saltracker.R;
 
 import odoo.Odoo;
 import odoo.helper.OUser;

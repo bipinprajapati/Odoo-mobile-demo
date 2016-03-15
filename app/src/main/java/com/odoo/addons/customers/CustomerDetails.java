@@ -35,7 +35,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.odoo.App;
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.addons.customers.utils.ShareUtil;
 import com.odoo.base.addons.ir.feature.OFileManager;
 import com.odoo.base.addons.res.ResPartner;

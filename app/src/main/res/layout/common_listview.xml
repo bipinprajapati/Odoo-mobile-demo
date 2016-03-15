@@ -5,11 +5,77 @@
     android:layout_height="match_parent"
     android:background="#fff">
 
+    <!--<LinearLayout
+        android:id="@+id/layout_spinner22"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_date"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:alpha="0.60"
+            android:src="@drawable/setdate" />
+
+        <EditText
+            android:id="@+id/editText_date"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:editable="false"
+            android:focusable="false"
+            android:hint="Select date"
+            android:padding="8dp"
+            android:textSize="17dp" >
+        </EditText>
+    </LinearLayout>-->
+
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:id="@+id/data_list_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:id="@+id/layout_spinner22"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_date"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:alpha="0.60"
+                android:src="@drawable/setdate" />
+
+            <EditText
+                android:id="@+id/editText_date"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:clickable="true"
+                android:editable="false"
+                android:focusable="false"
+                android:hint="Select date"
+                android:padding="8dp"
+                android:textSize="17dp" >
+            </EditText>
+        </LinearLayout>
 
         <android.support.v4.widget.SwipeRefreshLayout
             android:id="@+id/customer_no_items"
@@ -28,6 +94,7 @@
 
             <ListView
                 android:id="@+id/listview"
+                android:choiceMode="multipleChoice"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" />
         </android.support.v4.widget.SwipeRefreshLayout>

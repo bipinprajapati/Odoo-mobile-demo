@@ -32,8 +32,7 @@ import android.net.Uri;
 import android.text.TextPaint;
 import android.util.Base64;
 
-import com.odoo.R;
-
+import com.serpentcs.saltracker.R;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;

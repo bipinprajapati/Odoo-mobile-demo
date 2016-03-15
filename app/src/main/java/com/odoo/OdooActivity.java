@@ -69,6 +69,7 @@ import com.odoo.core.utils.OResource;
 import com.odoo.core.utils.drawer.DrawerUtils;
 import com.odoo.core.utils.sys.IOnActivityResultListener;
 import com.odoo.core.utils.sys.IOnBackPressListener;
+import com.serpentcs.saltracker.R;
 
 import java.util.List;
 
@@ -98,6 +99,7 @@ public class OdooActivity extends OdooCompatActivity {
     private Integer mDrawerSelectedIndex = -1;
     private Boolean mHasActionBarSpinner = false;
     private App app;
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {

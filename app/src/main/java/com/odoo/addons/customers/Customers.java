@@ -38,7 +38,7 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.base.addons.res.ResPartner;
 import com.odoo.core.orm.ODataRow;
 import com.odoo.core.support.addons.fragment.BaseFragment;
@@ -96,6 +96,7 @@ public class Customers extends BaseFragment implements ISyncStatusObserverListen
         mPartnersList.setOnItemClickListener(this);
         setHasFloatingButton(view, R.id.fabButton, mPartnersList, this);
         getLoaderManager().initLoader(0, null, this);
+
     }
 
     @Override
@@ -186,15 +187,15 @@ public class Customers extends BaseFragment implements ISyncStatusObserverListen
     @Override
     public List<ODrawerItem> drawerMenus(Context context) {
         List<ODrawerItem> items = new ArrayList<>();
-        items.add(new ODrawerItem(KEY).setTitle("Customers")
+        items.add(new ODrawerItem(KEY).setTitle("Principle")
                 .setIcon(R.drawable.ic_action_customers)
                 .setExtra(extra(Type.Customer))
                 .setInstance(new Customers()));
-        items.add(new ODrawerItem(KEY).setTitle("Suppliers")
+        items.add(new ODrawerItem(KEY).setTitle("Teachers")
                 .setIcon(R.drawable.ic_action_suppliers)
                 .setExtra(extra(Type.Supplier))
                 .setInstance(new Customers()));
-        items.add(new ODrawerItem(KEY).setTitle("Companies")
+        items.add(new ODrawerItem(KEY).setTitle("Students")
                 .setIcon(R.drawable.ic_action_company)
                 .setExtra(extra(Type.Company))
                 .setInstance(new Customers()));

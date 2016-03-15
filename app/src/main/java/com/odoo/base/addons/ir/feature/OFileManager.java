@@ -41,7 +41,7 @@ import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
 import com.odoo.App;
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.base.addons.ir.IrAttachment;
 import com.odoo.core.orm.ODataRow;
 import com.odoo.core.orm.OValues;

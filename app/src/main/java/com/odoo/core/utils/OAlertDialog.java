@@ -22,7 +22,7 @@ package com.odoo.core.utils;
 import android.app.AlertDialog;
 import android.content.Context;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 
 public class OAlertDialog {
 

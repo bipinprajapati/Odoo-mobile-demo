@@ -3,7 +3,7 @@ package com.odoo.core.account;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.config.IntroSliderItems;
 import com.odoo.widgets.slider.SliderView;
 

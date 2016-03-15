@@ -31,7 +31,7 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.base.addons.ir.IrModel;
 import com.odoo.core.utils.IntentUtils;
 import com.odoo.core.utils.OAppBarUtils;

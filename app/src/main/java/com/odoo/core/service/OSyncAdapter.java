@@ -28,7 +28,7 @@ import android.os.Bundle;
 import android.util.Log;
 
 import com.odoo.App;
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.base.addons.ir.IrModel;
 import com.odoo.base.addons.res.ResCompany;
 import com.odoo.core.account.About;

@@ -35,7 +35,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.base.addons.ir.IrAttachment;
 import com.odoo.base.addons.ir.feature.OFileManager;
 import com.odoo.base.addons.mail.MailMessage;

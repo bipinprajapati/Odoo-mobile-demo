@@ -31,7 +31,7 @@ import android.view.ViewGroup;
 import android.widget.Toast;
 
 import com.odoo.OdooActivity;
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.auth.OdooAccountManager;
 import com.odoo.core.support.OUser;
 import com.odoo.core.utils.BitmapUtils;

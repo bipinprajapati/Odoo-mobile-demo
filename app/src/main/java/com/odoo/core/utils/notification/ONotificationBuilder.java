@@ -32,7 +32,7 @@ import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.app.NotificationCompat.Builder;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.account.BaseSettings;
 import com.odoo.core.utils.OResource;
 

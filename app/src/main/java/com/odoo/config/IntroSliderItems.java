@@ -24,7 +24,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.utils.OControls;
 import com.odoo.widgets.slider.SliderItem;
 import com.odoo.widgets.slider.SliderPagerAdapter;

@@ -23,7 +23,7 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 
 public class OAppBarUtils {
 

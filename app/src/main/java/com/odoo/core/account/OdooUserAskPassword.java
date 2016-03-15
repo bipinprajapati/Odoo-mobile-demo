@@ -29,7 +29,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.support.OUser;
 import com.odoo.core.utils.BitmapUtils;
 import com.odoo.core.utils.OControls;

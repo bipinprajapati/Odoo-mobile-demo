@@ -36,6 +36,7 @@ import com.odoo.core.support.sync.SyncUtils;
 import com.odoo.core.utils.OAppBarUtils;
 import com.odoo.core.utils.OPreferenceManager;
 import com.odoo.core.utils.OResource;
+import com.serpentcs.saltracker.R;
 
 import java.util.ArrayList;
 import java.util.List;

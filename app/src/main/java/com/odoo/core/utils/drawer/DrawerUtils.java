@@ -26,7 +26,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.SettingsActivity;
 import com.odoo.config.Addons;
 import com.odoo.core.account.Profile;

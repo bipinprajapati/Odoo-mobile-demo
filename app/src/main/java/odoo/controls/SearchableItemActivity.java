@@ -35,7 +35,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.orm.ODataRow;
 import com.odoo.core.orm.OModel;
 import com.odoo.core.orm.ServerDataHelper;

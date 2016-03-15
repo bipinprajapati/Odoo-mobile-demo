@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.odoo">
+    package="com.serpentcs.saltracker">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -94,7 +94,7 @@
             android:authorities="${applicationId}.core.provider.content.sync.ir_model"
             android:multiprocess="true" />
 
-        <!-- Sync Provider & Service  // -->
+        <!-- Sync Provider & Servicev  // -->
         <provider
             android:name="com.odoo.addons.customers.providers.CustomersSyncProvider"
             android:authorities="${applicationId}.core.provider.content.sync.res_partner"

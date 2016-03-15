@@ -35,7 +35,7 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.base.addons.mail.widget.MailChatterView;
 import com.odoo.core.orm.ODataRow;
 import com.odoo.core.orm.OModel;

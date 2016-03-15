@@ -30,7 +30,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
 import com.odoo.core.account.OdooUserAskPassword;
 import com.odoo.core.auth.OdooAccountManager;
 import com.odoo.core.utils.BitmapUtils;

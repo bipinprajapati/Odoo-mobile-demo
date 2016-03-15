@@ -48,7 +48,9 @@ import com.odoo.core.orm.fields.types.OSelection;
 import com.odoo.core.orm.fields.types.OText;
 import com.odoo.core.orm.fields.types.OTimestamp;
 import com.odoo.core.orm.fields.types.OVarchar;
-import com.odoo.R;
+import com.serpentcs.saltracker.R;
+
+;
 
 public class OField extends LinearLayout implements IOControlData.ValueUpdateListener {
     public static final String TAG = OField.class.getSimpleName();
